@@ -114,11 +114,13 @@ margin-right: auto;
 
 #xpacs {
     display: flex;
+    width: 40%;
+    margin: 0 auto;
 }
 
 .xpaccover {
     margin: 10px;
-    
+
 }
 
 .xpaccover img {
