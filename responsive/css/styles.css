@@ -1,0 +1,161 @@
+/* Gloabl Styles */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+body {
+   background-color: rgb(101, 171, 175);
+}
+
+#container {
+    background-color: antiquewhite;
+    padding: 25px;
+}
+
+h1,
+ h2,
+  h3 {
+    text-align: center;
+}
+
+a {
+    color: rgb(59, 27, 121);
+}
+
+a:hover {
+    color: rgba(6, 181, 129, 0.554);
+    text-decoration: none;
+}
+
+
+/* Mobile Styles */
+nav {
+    background-color: rgb(30, 109, 104);
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: azure;
+    background-color: rgb(42, 63, 5);
+    text-align: center;
+    margin: 5px 0;
+font-size: 20px;
+font-weight: bold;
+text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: rgb(92, 148, 92);
+}
+
+header h1 {
+    font-size: 35px;
+    color: burlywood;
+}
+
+main {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#lower {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.col {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+
+footer {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.button {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    background-color:black
+    width: 125px;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.button:hover {
+    color: rgb(11, 130, 234);
+}
+
+/* tablet Styles*/
+
+@media(min-width: 786px) {
+
+nav {
+    text-align: center;
+}
+
+    nav li {
+    display: inline-block;
+}
+
+nav li a {
+    width: 200px;
+}
+
+main img {
+    width: 50%
+}
+
+#lower {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.col img {
+    width: 55%
+}
+
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1024px) {
+   #container {
+
+    width: 65%;
+    margin: 20px auto;
+   }
+   
+   
+    #lower {
+        width: 100;
+        display: flex;
+    }
+
+.col {
+    width: 33.33%;
+}
+
+}
+
