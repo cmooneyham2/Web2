@@ -80,7 +80,7 @@ main {
 .col{
     padding: 10px;
     margin: 10px
-    width: 33.33%;
+    :width; 33.33%;
     border-radius:10px;
 }
 
