@@ -80,7 +80,6 @@ main {
 .col{
     padding: 10px;
     margin: 10px
-    border: 2px soild color black;
     width: 33.33%;
     border-radius:10px;
 }
@@ -99,4 +98,3 @@ hr{
     display: flex;
 }
 
-#service 
